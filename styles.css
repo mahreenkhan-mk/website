@@ -158,3 +158,9 @@ body{
 
 /* Optional: ensure any .text-primary uses the new red */
 .text-primary { color: var(--bs-primary) !important; }
+
+#list-item::before {
+  content: '•';
+  margin-right: 8px;
+  color: #6c757d;
+}
